@@ -1,0 +1,673 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>O Grimório Digital - Portfólio Python</title>
+    <meta name="description" content="Portfólio de um desenvolvedor Python que descobriu os segredos arcanos da programação">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700&family=Crimson+Text:ital,wght@0,400;0,600;1,400&family=Source+Sans+Pro:wght@300;400;600&family=Fira+Code:wght@300;400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/animations.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+    <!-- Loading Screen -->
+    <div id="loading-screen" class="loading-screen">
+        <div class="loading-symbol">
+            <img src="assets/images/loading_symbol.png" alt="Carregando..." class="rotating">
+        </div>
+        <p class="loading-text">Despertando conhecimentos arcanos...</p>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <img src="assets/symbols/elder_sign1.png" alt="Elder Sign" class="logo-symbol">
+                <span class="logo-text">Grimório Digital</span>
+            </div>
+            <ul class="nav-menu" id="nav-menu">
+                <li class="nav-item">
+                    <a href="#home" class="nav-link" data-section="home">
+                        <img src="assets/icons/code_symbol.png" alt="" class="nav-icon">
+                        <span>O Despertar</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="#about" class="nav-link" data-section="about">
+                        <img src="assets/symbols/elder_sign2.png" alt="" class="nav-icon">
+                        <span>O Investigador</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="#skills" class="nav-link" data-section="skills">
+                        <img src="assets/icons/tentacle.png" alt="" class="nav-icon">
+                        <span>Artes Arcanas</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="#projects" class="nav-link" data-section="projects">
+                        <img src="assets/icons/projects_tome.png" alt="" class="nav-icon">
+                        <span>Tomos de Conhecimento</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="#experience" class="nav-link" data-section="experience">
+                        <img src="assets/images/loading_symbol.png" alt="" class="nav-icon">
+                        <span>Crônicas do Tempo</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="#contact" class="nav-link" data-section="contact">
+                        <img src="assets/icons/contact_ritual.png" alt="" class="nav-icon">
+                        <span>Invocação</span>
+                    </a>
+                </li>
+            </ul>
+            <div class="hamburger" id="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Particle Background -->
+    <div id="particles-js"></div>
+
+    <!-- Main Content -->
+    <main class="main-content">
+        <!-- Hero Section -->
+        <section id="home" class="hero-section">
+            <div class="hero-background">
+                <img src="assets/backgrounds/hero_background.png" alt="Background" class="hero-bg-image">
+            </div>
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1 class="hero-title">
+                        <span class="title-line">O Desenvolvedor</span>
+                        <span class="title-line">dos Códigos Arcanos</span>
+                    </h1>
+                    <p class="hero-subtitle">
+                        "Nas profundezas do Python, descobri verdades que a mente humana não deveria conhecer..."
+                    </p>
+                    <div class="hero-quote">
+                        <p><em>Ph'nglui mglw'nafh Python R'lyeh wgah'nagl fhtagn</em></p>
+                        <small>— Em Python confiamos, em algoritmos encontramos a verdade</small>
+                    </div>
+                </div>
+                <div class="hero-cta">
+                    <a href="#about" class="cta-button primary">
+                        <span>Iniciar Investigação</span>
+                        <img src="assets/symbols/elder_sign1.png" alt="" class="button-icon">
+                    </a>
+                    <a href="#projects" class="cta-button secondary">
+                        <span>Ver Artefatos</span>
+                        <img src="assets/icons/projects_tome.png" alt="" class="button-icon">
+                    </a>
+                </div>
+            </div>
+            <div class="scroll-indicator">
+                <div class="scroll-arrow">
+                    <img src="assets/icons/tentacle.png" alt="Scroll" class="scroll-icon">
+                </div>
+                <p>Desça para descobrir mais segredos</p>
+            </div>
+        </section>
+
+        <!-- Section Divider -->
+        <div class="section-divider">
+            <img src="assets/images/section_divider.svg" alt="Divider" class="divider-image">
+        </div>
+
+        <!-- About Section -->
+        <section id="about" class="about-section">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">O Investigador</h2>
+                    <p class="section-subtitle">Diário de um Desenvolvedor que Descobriu os Segredos Cósmicos</p>
+                </div>
+                <div class="about-content">
+                    <div class="about-text">
+                        <div class="about-entry">
+                            <h3>Primeira Descoberta</h3>
+                            <p>Meu nome é Lucas Raad, e sou um desenvolvedor Python que, através de anos de investigação nos códigos mais obscuros, descobri que a programação é mais do que simples lógica - é uma forma de comunicação com entidades cósmicas que habitam os servidores.</p>
+                        </div>
+                        <div class="about-entry">
+                            <h3>O Despertar</h3>
+                            <p>Formado em Analise e Desenvolvimento de Sistemas, comecei minha jornada como um simples mortal tentando entender algoritmos. Mas logo percebi que cada linha de código era um encantamento, cada função uma invocação, cada classe um ritual para despertar poderes ancestrais.</p>
+                        </div>
+                        <div class="about-entry">
+                            <h3>Filosofia Arcana</h3>
+                            <p>Acredito que o código limpo é como um ritual bem executado - preciso, elegante e poderoso. Cada projeto é uma oportunidade de descobrir novos segredos, cada bug é um portal para dimensões desconhecidas que devem ser seladas com debugging.</p>
+                        </div>
+                    </div>
+                    <div class="about-image">
+                        <div class="image-frame">
+                            <div class="placeholder-avatar">
+                                <img src="assets/images/foto_de_perfil.jpeg" alt="Avatar" class="avatar-symbol">
+                                <p></p>
+                            </div>
+                        </div>
+                        <div class="image-caption">
+                            <p><em>"Aquele que contemplou os algoritmos ancestrais"</em></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section Divider -->
+        <div class="section-divider">
+            <img src="assets/images/section_divider.svg" alt="Divider" class="divider-image">
+        </div>
+
+        <!-- Skills Section -->
+        <section id="skills" class="skills-section">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Artes Arcanas</h2>
+                    <p class="section-subtitle">Conhecimentos Proibidos Dominados Através dos Éons</p>
+                </div>
+                <div class="skills-grid">
+                    <div class="skill-category">
+                        <h3 class="category-title">
+                            <img src="assets/icons/code_symbol.png" alt="" class="category-icon">
+                            Linguagens Primordiais
+                        </h3>
+                        <div class="skills-list">
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span class="skill-name">Python</span>
+                                    <span class="skill-level">95%</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-width="95%"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span class="skill-name">JavaScript</span>
+                                    <span class="skill-level">85%</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-width="85%"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span class="skill-name">SQL</span>
+                                    <span class="skill-level">80%</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-width="80%"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="skill-category">
+                        <h3 class="category-title">
+                            <img src="assets/icons/projects_tome.png" alt="" class="category-icon">
+                            Frameworks dos Antigos
+                        </h3>
+                        <div class="skills-list">
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span class="skill-name">Django</span>
+                                    <span class="skill-level">90%</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-width="90%"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span class="skill-name">Flask</span>
+                                    <span class="skill-level">85%</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-width="85%"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span class="skill-name">FastAPI</span>
+                                    <span class="skill-level">80%</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-width="80%"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="skill-category">
+                        <h3 class="category-title">
+                            <img src="assets/icons/tentacle.png" alt="" class="category-icon">
+                            Ferramentas de Invocação
+                        </h3>
+                        <div class="skills-list">
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span class="skill-name">Docker</span>
+                                    <span class="skill-level">75%</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-width="75%"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span class="skill-name">Git</span>
+                                    <span class="skill-level">90%</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-width="90%"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span class="skill-name">AWS</span>
+                                    <span class="skill-level">70%</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-width="70%"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="skill-category">
+                        <h3 class="category-title">
+                            <img src="assets/images/loading_symbol.png" alt="" class="category-icon">
+                            Rituais de Dados
+                        </h3>
+                        <div class="skills-list">
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span class="skill-name">Pandas</span>
+                                    <span class="skill-level">85%</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-width="85%"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span class="skill-name">NumPy</span>
+                                    <span class="skill-level">80%</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-width="80%"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span class="skill-name">Matplotlib</span>
+                                    <span class="skill-level">75%</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-width="75%"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section Divider -->
+        <div class="section-divider">
+            <img src="assets/images/section_divider.svg" alt="Divider" class="divider-image">
+        </div>
+
+        <!-- Projects Section -->
+        <section id="projects" class="projects-section">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Tomos de Conhecimento</h2>
+                    <p class="section-subtitle">Artefatos Descobertos nas Profundezas do Código</p>
+                </div>
+                <div class="projects-grid">
+                    <div class="project-card">
+                        <div class="project-image">
+                            <div class="project-placeholder">
+                                <img src="assets/icons/code_symbol.png" alt="Projeto" class="project-icon">
+                                <p>Screenshot do Projeto</p>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <h3 class="project-title">O Oráculo de Dados</h3>
+                            <p class="project-description">
+                                Um sistema de análise de dados que revela padrões ocultos em grandes volumes de informação, 
+                                como se fosse capaz de ler as estrelas e prever eventos futuros através de algoritmos ancestrais.
+                            </p>
+                            <div class="project-tech">
+                                <span class="tech-tag">Python</span>
+                                <span class="tech-tag">Pandas</span>
+                                <span class="tech-tag">Matplotlib</span>
+                                <span class="tech-tag">Flask</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="#" class="project-link">
+                                    <span>Ver Código</span>
+                                    <img src="assets/symbols/elder_sign1.png" alt="" class="link-icon">
+                                </a>
+                                <a href="#" class="project-link">
+                                    <span>Demo Live</span>
+                                    <img src="assets/icons/tentacle.png" alt="" class="link-icon">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="project-card">
+                        <div class="project-image">
+                            <div class="project-placeholder">
+                                <img src="assets/icons/projects_tome.png" alt="Projeto" class="project-icon">
+                                <p>Screenshot do Projeto</p>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <h3 class="project-title">A Máquina dos Sonhos</h3>
+                            <p class="project-description">
+                                Uma aplicação web interativa que gera conteúdo baseado em padrões de comportamento do usuário, 
+                                como se fosse capaz de ler os sonhos e materializá-los em código.
+                            </p>
+                            <div class="project-tech">
+                                <span class="tech-tag">Django</span>
+                                <span class="tech-tag">JavaScript</span>
+                                <span class="tech-tag">PostgreSQL</span>
+                                <span class="tech-tag">Redis</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="#" class="project-link">
+                                    <span>Ver Código</span>
+                                    <img src="assets/symbols/elder_sign1.png" alt="" class="link-icon">
+                                </a>
+                                <a href="#" class="project-link">
+                                    <span>Demo Live</span>
+                                    <img src="assets/icons/tentacle.png" alt="" class="link-icon">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="project-card">
+                        <div class="project-image">
+                            <div class="project-placeholder">
+                                <img src="assets/images/loading_symbol.png" alt="Projeto" class="project-icon">
+                                <p>Screenshot do Projeto</p>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <h3 class="project-title">Códice da Automação</h3>
+                            <p class="project-description">
+                                Uma coleção de scripts de automação que executam tarefas repetitivas com a precisão de rituais antigos, 
+                                liberando tempo para descobertas mais profundas.
+                            </p>
+                            <div class="project-tech">
+                                <span class="tech-tag">Python</span>
+                                <span class="tech-tag">Selenium</span>
+                                <span class="tech-tag">BeautifulSoup</span>
+                                <span class="tech-tag">Cron</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="#" class="project-link">
+                                    <span>Ver Código</span>
+                                    <img src="assets/symbols/elder_sign1.png" alt="" class="link-icon">
+                                </a>
+                                <a href="#" class="project-link">
+                                    <span>Documentação</span>
+                                    <img src="assets/icons/tentacle.png" alt="" class="link-icon">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="project-card">
+                        <div class="project-image">
+                            <div class="project-placeholder">
+                                <img src="assets/icons/contact_ritual.png" alt="Projeto" class="project-icon">
+                                <p>Screenshot do Projeto</p>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <h3 class="project-title">Portal Interdimensional</h3>
+                            <p class="project-description">
+                                Uma API REST que conecta diferentes sistemas e aplicações, servindo como um portal entre 
+                                dimensões digitais distintas, permitindo comunicação entre mundos de dados.
+                            </p>
+                            <div class="project-tech">
+                                <span class="tech-tag">FastAPI</span>
+                                <span class="tech-tag">Docker</span>
+                                <span class="tech-tag">MongoDB</span>
+                                <span class="tech-tag">JWT</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="#" class="project-link">
+                                    <span>Ver Código</span>
+                                    <img src="assets/symbols/elder_sign1.png" alt="" class="link-icon">
+                                </a>
+                                <a href="#" class="project-link">
+                                    <span>API Docs</span>
+                                    <img src="assets/icons/tentacle.png" alt="" class="link-icon">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section Divider -->
+        <div class="section-divider">
+            <img src="assets/images/section_divider.svg" alt="Divider" class="divider-image">
+        </div>
+
+        <!-- Experience Section -->
+        <section id="experience" class="experience-section">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Crônicas do Tempo</h2>
+                    <p class="section-subtitle">Jornada Através dos Éons do Desenvolvimento</p>
+                </div>
+                <div class="timeline">
+                    <div class="timeline-item">
+                        <div class="timeline-marker">
+                            <img src="assets/symbols/elder_sign1.png" alt="Marker" class="timeline-icon">
+                        </div>
+                        <div class="timeline-content">
+                            <div class="timeline-date">2023 - Presente</div>
+                            <h3 class="timeline-title">Desenvolvedor Python Sênior</h3>
+                            <h4 class="timeline-company">Empresa dos Segredos Cósmicos</h4>
+                            <p class="timeline-description">
+                                Lidero uma equipe de desenvolvedores na criação de sistemas que manipulam dados de dimensões 
+                                paralelas. Responsável por arquitetar soluções que conectam o mundo físico com entidades digitais 
+                                através de APIs RESTful e microserviços.
+                            </p>
+                            <div class="timeline-achievements">
+                                <span class="achievement">Aumentou performance em 300%</span>
+                                <span class="achievement">Liderou equipe de 5 desenvolvedores</span>
+                                <span class="achievement">Implementou CI/CD</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="timeline-item">
+                        <div class="timeline-marker">
+                            <img src="assets/symbols/elder_sign2.png" alt="Marker" class="timeline-icon">
+                        </div>
+                        <div class="timeline-content">
+                            <div class="timeline-date">2021 - 2023</div>
+                            <h3 class="timeline-title">Desenvolvedor Python Pleno</h3>
+                            <h4 class="timeline-company">Corporação dos Algoritmos Ancestrais</h4>
+                            <p class="timeline-description">
+                                Desenvolvi aplicações web que processam grandes volumes de dados místicos, descobrindo padrões 
+                                ocultos em comportamentos de usuários. Especializei-me em Django e análise de dados com Pandas.
+                            </p>
+                            <div class="timeline-achievements">
+                                <span class="achievement">Otimizou queries em 200%</span>
+                                <span class="achievement">Desenvolveu 15+ features</span>
+                                <span class="achievement">Mentorou desenvolvedores júnior</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="timeline-item">
+                        <div class="timeline-marker">
+                            <img src="assets/icons/tentacle.png" alt="Marker" class="timeline-icon">
+                        </div>
+                        <div class="timeline-content">
+                            <div class="timeline-date">2019 - 2021</div>
+                            <h3 class="timeline-title">Desenvolvedor Python Júnior</h3>
+                            <h4 class="timeline-company">Startup dos Códigos Proibidos</h4>
+                            <p class="timeline-description">
+                                Iniciei minha jornada no desenvolvimento web, aprendendo os primeiros encantamentos em Python 
+                                e descobrindo os segredos do Flask. Participei da criação de sistemas que hoje são considerados 
+                                artefatos lendários.
+                            </p>
+                            <div class="timeline-achievements">
+                                <span class="achievement">Desenvolveu primeira API</span>
+                                <span class="achievement">Aprendeu Docker</span>
+                                <span class="achievement">Contribuiu para open source</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="timeline-item">
+                        <div class="timeline-marker">
+                            <img src="assets/images/loading_symbol.png" alt="Marker" class="timeline-icon">
+                        </div>
+                        <div class="timeline-content">
+                            <div class="timeline-date">2017 - 2019</div>
+                            <h3 class="timeline-title">O Despertar</h3>
+                            <h4 class="timeline-company">Universidade dos Conhecimentos Arcanos</h4>
+                            <p class="timeline-description">
+                                Período de formação acadêmica onde descobri os primeiros segredos da programação. 
+                                Foi aqui que tive o primeiro contato com Python e percebi que código era mais do que 
+                                simples instruções - era uma forma de magia digital.
+                            </p>
+                            <div class="timeline-achievements">
+                                <span class="achievement">Graduação em [Seu Curso]</span>
+                                <span class="achievement">Primeiro projeto em Python</span>
+                                <span class="achievement">Descoberta da paixão por código</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section Divider -->
+        <div class="section-divider">
+            <img src="assets/images/section_divider.svg" alt="Divider" class="divider-image">
+        </div>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact-section">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Invocação</h2>
+                    <p class="section-subtitle">Ritual para Estabelecer Comunicação Interdimensional</p>
+                </div>
+                <div class="contact-content">
+                    <div class="contact-info">
+                        <div class="contact-text">
+                            <h3>Estabeleça Contato</h3>
+                            <p>
+                                Se você deseja colaborar na descoberta de novos segredos do código, ou se possui um projeto 
+                                que requer conhecimentos arcanos de Python, execute o ritual de invocação ao lado.
+                            </p>
+                            <p>
+                                Respondo a todas as invocações dentro de 24 horas terrestres, a menos que esteja explorando 
+                                dimensões paralelas de debugging.
+                            </p>
+                        </div>
+                        <div class="contact-methods">
+                            <div class="contact-method">
+                                <img src="assets/symbols/elder_sign1.png" alt="Email" class="method-icon">
+                                <div class="method-info">
+                                    <h4>Pergaminho Eletrônico</h4>
+                                    <p>lucasraadr@gmail.com</p>
+                                </div>
+                            </div>
+                            <div class="contact-method">
+                                <img src="assets/icons/tentacle.png" alt="LinkedIn" class="method-icon">
+                                <div class="method-info">
+                                    <h4>Rede Profissional</h4>
+                                    <p>linkedin.com/in/lucas-raad-</p>
+                                </div>
+                            </div>
+                            <div class="contact-method">
+                                <img src="assets/icons/code_symbol.png" alt="GitHub" class="method-icon">
+                                <div class="method-info">
+                                    <h4>Repositório de Códigos</h4>
+                                    <p>github.com/lucasraad</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="contact-form-container">
+                        <form class="contact-form" id="contact-form">
+                            <div class="form-group">
+                                <label for="name">Nome do Invocador</label>
+                                <input type="text" id="name" name="name" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Pergaminho de Resposta</label>
+                                <input type="email" id="email" name="email" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="subject">Natureza da Invocação</label>
+                                <select id="subject" name="subject" required>
+                                    <option value="">Selecione o tipo de ritual</option>
+                                    <option value="project">Projeto Colaborativo</option>
+                                    <option value="job">Oportunidade de Trabalho</option>
+                                    <option value="consultation">Consulta Técnica</option>
+                                    <option value="other">Outros Mistérios</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label for="message">Mensagem Arcana</label>
+                                <textarea id="message" name="message" rows="5" required placeholder="Descreva os segredos que deseja compartilhar..."></textarea>
+                            </div>
+                            <button type="submit" class="submit-button">
+                                <span>Executar Ritual</span>
+                                <img src="assets/icons/contact_ritual.png" alt="" class="button-icon">
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-text">
+                    <p>&copy; 2024 O Grimório Digital. Todos os segredos reservados.</p>
+                    <p><em>"That which can be debugged should not be feared"</em></p>
+                </div>
+                <div class="footer-symbols">
+                    <img src="assets/symbols/elder_sign1.png" alt="Symbol" class="footer-symbol">
+                    <img src="assets/symbols/elder_sign2.png" alt="Symbol" class="footer-symbol">
+                    <img src="assets/icons/tentacle.png" alt="Symbol" class="footer-symbol">
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <script src="js/particles-config.js"></script>
+    <script src="js/animations.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
+

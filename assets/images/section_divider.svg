@@ -1,0 +1,25 @@
+<svg width="300" height="100" viewBox="0 0 300 100" xmlns="http://www.w3.org/2000/svg">
+  <g fill="none" stroke="#1a4a3a" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+    <!-- Left tentacle -->
+    <path d="M20 50 C30 30, 50 30, 60 50 C70 70, 90 70, 100 50"/>
+    <circle cx="35" cy="45" r="2" fill="#1a4a3a"/>
+    <circle cx="55" cy="55" r="1.5" fill="#1a4a3a"/>
+    <circle cx="75" cy="45" r="1" fill="#1a4a3a"/>
+    
+    <!-- Central symbols -->
+    <circle cx="120" cy="50" r="8" fill="none" stroke="#1a4a3a" stroke-width="2"/>
+    <circle cx="120" cy="50" r="3" fill="#1a4a3a"/>
+    
+    <text x="140" y="55" font-family="serif" font-size="16" fill="#1a4a3a">Π—Ж—Ѯ</text>
+    
+    <circle cx="180" cy="50" r="8" fill="none" stroke="#1a4a3a" stroke-width="2"/>
+    <circle cx="180" cy="50" r="3" fill="#1a4a3a"/>
+    
+    <!-- Right tentacle -->
+    <path d="M200 50 C210 30, 230 30, 240 50 C250 70, 270 70, 280 50"/>
+    <circle cx="215" cy="45" r="2" fill="#1a4a3a"/>
+    <circle cx="235" cy="55" r="1.5" fill="#1a4a3a"/>
+    <circle cx="255" cy="45" r="1" fill="#1a4a3a"/>
+  </g>
+</svg>
+
