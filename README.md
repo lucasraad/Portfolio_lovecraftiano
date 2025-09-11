@@ -5,7 +5,7 @@ Um espaço onde tecnologia e ocultismo digital se encontram, revelando meus proj
 
 🔹 Exploração: Navegue pelas seções como quem caminha em bibliotecas ancestrais.
 
-🔹 Imersão: Design e narrativa cuidadosamente moldados para transmitir a sensação de estar diante de algo maior — e talvez, incompreensível.
+🔹 Imersão: Design e narrativa cuidadosamente moldados para transmitir a sensação de estar diante de algo maior e talvez, incompreensível.
 
 “Não está morto o que pode eternamente jazer,
 E com estranhos éones até a própria morte pode morrer.”
